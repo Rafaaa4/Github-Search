@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Project Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <button class="toggle-theme" onclick="toggleTheme()">🌙 Toggle Dark Mode</button>
+    <h1>🔍 Search GitHub</h1>
+
+    <div class="search-controls">
+      <input type="text" id="searchInput" placeholder="Enter search term..." />
+      <select id="searchType">
+        <option value="repositories">Repositories</option>
+        <option value="users">Users</option>
+        <option value="commits">Commits</option>
+      </select>
+      <button onclick="searchGitHub()">Search</button>
+    </div>
+
+    <div id="results"></div>
+    <div id="pagination" class="pagination"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
