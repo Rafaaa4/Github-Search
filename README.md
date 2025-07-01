@@ -25,5 +25,5 @@ A simple web application to search for **GitHub repositories**, **users**, or **
 1. **Clone or download this repository**
 
 ```bash
-git clone https://github.com/your-username/github-search-app.git
+git clone https://github.com/rafaaa4/github-search.git
 cd github-search-app
