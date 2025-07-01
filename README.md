@@ -15,7 +15,7 @@ A simple web application to search for **GitHub repositories**, **users**, or **
 
 ## 🚀 Live Demo
 
-[Click here to try it live]([#](https://rafaaa4.github.io/Github-Search/)) <!-- Replace with your GitHub Pages or Vercel/Netlify link -->
+👉 [Click here to try it live](https://rafaaa4.github.io/Github-Search/)
 
 ## 📸 Preview
 ![screenshot](1.png)
